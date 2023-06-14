@@ -53,11 +53,13 @@ A countdown timer can also be activated via double tapping the button. Setup is 
 - Employs ESP32 S2 Mini, with open source code via github.
 - S14-24 24 characters dimension 200mm x 32mm x 30mm (approx. 8" x 1-1/4" x 1-1/4")
 - S14-12 12 characters dimension 100mm x 30mm x 30mm (approx. 4" x 1-1/4" x 1-1/4")
+
 ### Technical Details
 
 - Employs Arduino ESP32 AutoConnect library for entering WIFI credentials.
 - Full use of ESP32 S2 Mini IO pins to perform LED multiplexing.
 - Access of IO registers directly and timer interrupts for efficient multiplexing.
+
 ### Initial Setup
 
 The device must be connect to your home network in order to gain time server access via the internet. You will need to provide your home network name (SSID) and password via the ESP32 AutoConnect library. 
@@ -87,6 +89,7 @@ The S14Clock make use of the button on the ESP32 module for local functionalitie
 - Single press advances (cycles) the 8 preset display format / messages.
 - Press-n-hold advances the display transition effect, subsequent presses cycles to the next transition effect.
 - Double press in quick succession starts the countdown / countup timer with the present countdown / countup message. Double presses again when clock unit is already in countdown mode will advance the countdown time. Single key press cancels the countdown timer.
+
 ### Application Notes (Web Server)
 
 Upon power up the S14Clock will show it's IP address briefly. The S14Clock runs a web server for configuration and customization. Enter the IP address via a browser to access the appliation server.
