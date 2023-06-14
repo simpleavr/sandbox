@@ -32,7 +32,7 @@ Github repository, [my github repository](https://github.com/simpleavr/s14clock)
 
 Firmware Installer [click here](./install.html).
 
- <img src="images/s14-12-24_00.JPG" alt="IMG" style="border:2px solid #555;margin-right:10px" width="360"/> <img src="images/s14-24-12_01.JPG" alt="IMG" style="border:2px solid #555;margin-right:10px" width="360"/>
+ <img src="../s14clock/images/s14-12-24_00.JPG" alt="IMG" style="border:2px solid #555;margin-right:10px" width="360"/> <img src="../s14clock/images/s14-24-12_01.JPG" alt="IMG" style="border:2px solid #555;margin-right:10px" width="360"/>
 
 Two versions of 12 (S14-12) and (S14-24) 24 characters were created, with same functionality. The clock offers various display format and optons. It can also be used as an internet display, accepting messages via a web page.
 
@@ -64,7 +64,7 @@ The device must be connect to your home network in order to gain time server acc
 
 Power up your S14Clock, you should see the message "CONNECTING" after a brief display checkup. 
 
- <img src="images/s14-24-12_04.JPG" alt="IMG" style="border:2px solid #555;margin-right:10px" width="360"/>
+ <img src="../s14clock/images/s14-24-12_04.JPG" alt="IMG" style="border:2px solid #555;margin-right:10px" width="360"/>
 
 Use your phone or computer and locate the AP with SSID "ESP-??????", connect with password "12345678".
 
@@ -72,7 +72,7 @@ Choose from the "3-bar" menu (top right) "Configure new AP" and select your home
 
 Enter your home network WIFI credentials and hit "Apply" button.
 
- <img src="images/ap01.png" alt="IMG" style="border:2px solid #555;margin-right:10px" width="240"/> <img src="images/ap02.png" alt="IMG" style="border:2px solid #555;margin-right:10px" width="240"/> <img src="images/ap03.png" alt="IMG" style="border:2px solid #555;margin-right:10px" width="240"/>
+ <img src="../s14clock/images/ap01.png" alt="IMG" style="border:2px solid #555;margin-right:10px" width="240"/> <img src="../s14clock/images/ap02.png" alt="IMG" style="border:2px solid #555;margin-right:10px" width="240"/> <img src="../s14clock/images/ap03.png" alt="IMG" style="border:2px solid #555;margin-right:10px" width="240"/>
 
  
 
@@ -82,7 +82,7 @@ Your S14Clock should connect to your home network and will start to work after s
 
 The S14Clock make use of the button on the ESP32 module for local functionalities, at the back of the clock unit, there are 2 buttons, the button marked 'RST' is a power reset button. The button marked '0' is the application button;
 
- <img src="images/s14_back.JPG" alt="IMG" style="border:2px solid #555;margin-right:10px" width="360"/>
+ <img src="../s14clock/images/s14_back.JPG" alt="IMG" style="border:2px solid #555;margin-right:10px" width="360"/>
 
 - Single press advances (cycles) the 8 preset display format / messages.
 - Press-n-hold advances the display transition effect, subsequent presses cycles to the next transition effect.
@@ -99,7 +99,7 @@ The four **primary buttons** at the top of the page serves the following purpose
 - **Advance Display** cycle to the next display format, as setup via "Display Content" entries.
 - **Reset Configuration** resets S14Clock to preset default configuration values.
 - **Reset WIFI** forget current WIFI credentials, next power up will require WIFI setup again.
- <img src="images/s14web_01a.png" alt="IMG" style="border:2px solid #555;margin-right:10px" width="240"/>
+ <img src="../s14clock/images/s14web_01a.png" alt="IMG" style="border:2px solid #555;margin-right:10px" width="240"/>
 
 
 
@@ -109,7 +109,7 @@ The four **primary buttons** at the top of the page serves the following purpose
 
 Eight sets of **display contents** (left plus right aligned text and tokens) can be configured, along with checkboxes to turn them on and off. The "on" contents will be cycled through the cycle / advance display button.
 
- <img src="images/s14web_02.png" alt="IMG" style="border:2px solid #555;margin-right:10px" width="240"/>
+ <img src="../s14clock/images/s14web_02.png" alt="IMG" style="border:2px solid #555;margin-right:10px" width="240"/>
 
 
 
@@ -171,7 +171,7 @@ In extreme case (AutoConnect failed, power off during flash writing, etc), you c
 
 ### Components and Assembly
 
- <img src="images/s14_parts.JPG" alt="IMG" style="border:2px solid #555;margin-right:10px" width="360"/>
+ <img src="../s14clock/images/s14_parts.JPG" alt="IMG" style="border:2px solid #555;margin-right:10px" width="360"/>
 
 
 
